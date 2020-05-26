@@ -19,3 +19,16 @@ function rev2(arr1){
     return newArr2;
 }
 console.log(rev2([1, 2, '3', 4, 'a', null]));
+2. //Arr 1 to 10
+ const arr = [];
+ for (let i = 0; i <= 10; i++){
+     arr[i] = i;
+ }
+ console.log(arr);
+
+     //Arr 1 to 10 method push
+ const arr = [];
+ for (let i = 0; i <= 10; i++){
+     arr.push(i);
+ }
+ console.log(arr);
