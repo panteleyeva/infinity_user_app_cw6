@@ -38,3 +38,9 @@ console.log(rev2([1, 2, '3', 4, 'a', null]));
      arr[i] = i * 2;
  }
  console.log(arr);
+ // doubled array 2 method push
+ const arr = [];
+ for (let i = 0; i <= 20; i+=2){
+     arr.push(i);
+ }
+ console.log(arr);
