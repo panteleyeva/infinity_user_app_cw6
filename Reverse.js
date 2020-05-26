@@ -44,3 +44,15 @@ console.log(rev2([1, 2, '3', 4, 'a', null]));
      arr.push(i);
  }
  console.log(arr);
+ 3. //How many vowels in the string(all)
+ function vowels(str){
+     let count = 0;
+     let a = 'oieau';
+     str = str.toLowerCase();
+     for(let i = 0; i < str.length; i++){
+         if(a.includes(str[i]))
+             count++
+     }
+     return count;
+ }
+ console.log(vowels('I like java script'));
