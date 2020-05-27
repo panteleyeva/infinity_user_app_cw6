@@ -56,3 +56,9 @@ console.log(rev2([1, 2, '3', 4, 'a', null]));
      return count;
  }
  console.log(vowels('I like java script'));
+ // method unshift
+ const arr = [];
+ for (let i = -10; i <= -1; i++){
+     arr.unshift(i)
+ }
+ console.log(arr);
