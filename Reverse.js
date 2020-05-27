@@ -62,3 +62,41 @@ console.log(rev2([1, 2, '3', 4, 'a', null]));
      arr.unshift(i)
  }
  console.log(arr);
+// array [1,0,1,0,1,0]
+ const arr = [];
+ for (let i = 0; i <= 10; i++){
+     if (i % 2 === 0)
+         arr[i] = 1;
+     else arr[i] = 0
+ }
+ console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
